@@ -1,12 +1,13 @@
 #!usr/bin/env python
 
-# From https://github.com/junyuseu/fine-tuning/blob/1b897f3e17f0a9e259f43772ad0752606475455e/Oxford102/predict.py
+# From https://github.com/junyuseu/fine-tuning/blob/master/Oxford102/predict.py
+
+
 import caffe
 import argparse
 from class_labels import labels
 import numpy as np
 import matplotlib.pyplot as plt
-
 
 
 def main():
